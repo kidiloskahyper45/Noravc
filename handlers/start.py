@@ -25,7 +25,7 @@ and Join [support](https://t.me/rosebakthan) to know about this bot
             [
                 [
                     InlineKeyboardButton(
-                        "COMMANDS", url="https://telegra.ph/𝚖𝚞𝚜𝚒𝚚𝚘-Sᴏɴɢ-06-09",
+                        "COMMANDS", url="https://telegra.ph/NORA-VC-BOT-07-05",
                     )
                 ],
                 [
@@ -83,7 +83,7 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-Join our group for reporting issues and bugs check commands [click here](https://telegra.ph/𝚖𝚞𝚜𝚒𝚚𝚘-Sᴏɴɢ-06-09) use @missblissrobot for downloading songs
+Join our group for reporting issues and bugs check commands [click here](https://telegra.ph/NORA-VC-BOT-07-05) use @Miss_Monica_bot for downloading songs
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
