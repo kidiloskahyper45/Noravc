@@ -36,7 +36,7 @@ and Join [support](https://t.me/rosebakthan) to know about this bot
                         "CHANNEL", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "CREDITS", url="https://t.me/Musiqorobot"
+                        "CREDITS", url="https://t.me/Miss_Monica_bot"
                     )
                 ],
                 [
