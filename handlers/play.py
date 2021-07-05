@@ -433,7 +433,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"Userbot have joined the group")
                               await lel.edit(
-                                  "<b>@musiqo_Assistant has joined the chat</b>",
+                                  "<b>@Noravc_assistant has joined the chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -441,8 +441,8 @@ async def play(_, message: Message):
                           except Exception as e:
                               #print(e)
                               await lel.edit(
-                                  f"<b>Flood wait timeout \nUser {user.first_name} flooding request userbot cant join group, check @LovishMusic_bot banned here or contact support @tubots"
-                                  "<b>dev says  add @musiqo_Assistant and try again</b>",
+                                  f"<b>Flood wait timeout \nUser {user.first_name} flooding request userbot cant join group, check @Noravc_assistant banned here or contact support @tubots"
+                                  "<b>dev says  add @Noravc_assistant and try again</b>",
                               )
                               pass
     try:
@@ -450,7 +450,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @musiqo_Assistant assistant is not in the chat, ask admin to send /play command for add assistant manually.</i>"
+            f"<i> @Noravc_assistant assistant is not in the chat, ask admin to send /play command for add assistant manually.</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -561,7 +561,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "musiqo_Assistant"
+        user.first_name =  "Noravc_assistant"
     usar = user
     wew = usar.id
     try:
@@ -582,7 +582,7 @@ async def deezer(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I Jᴏɪɴᴇᴅ Tʜɪꜱ Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏɪɴɢ Mᴜꜱɪᴄ Iɴ VC")
                               await lel.edit(
-                                  "<b>@musiqo_Assistant has joined chat</b>",
+                                  "<b>@Noravc_assistant has joined chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -591,7 +591,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>Flood wait timeout \nUser {user.first_name} could'nt join group Make sure assistant is not banned in this chat."
-                                  "\n\n @musiqo_Assistant Userbot is not in this chat.</b>",
+                                  "\n\n @Noravc_assistant Userbot is not in this chat.</b>",
                               )
                               pass
     try:
@@ -599,7 +599,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>takes like @musiqo_Assistant ot in this chat send /play to join or add assistant manually or contact support @PsychoBots_chat</i>"
+            f"<i>takes like @Noravc_assistant ot in this chat send /play to join or add assistant manually or contact support @PsychoBots_chat</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
@@ -691,7 +691,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "musiqo_Assistant"
+        user.first_name =  "Noravc_assistant"
     usar = user
     wew = usar.id
     try:
@@ -712,7 +712,7 @@ async def jiosaavn(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music")
                               await lel.edit(
-                                  "<b>@musiqo_Assistant Assistant joined your chat</b>",
+                                  "<b>@Noravc_assistant Assistant joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -721,7 +721,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>Flood wait timeout \nUser {user.first_name} cant join this group add @LovishMusic_bot manually if cant contact support."
-                                  "<b>Add @musiqo_Assistant nd retry</b>",
+                                  "<b>Add @Noravc_assistant nd retry</b>",
                               )
                               pass
     try:
@@ -729,7 +729,7 @@ async def jiosaavn(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> @musiqo_Assistant not in group.</i>"
+            "<i> @Noravc_assistant not in group.</i>"
         )
         return     
     requested_by = message_.from_user.first_name
@@ -765,7 +765,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join support",
-                   url='https://t.me/unitedbotsupport')
+                   url='https://t.me/rosebakthan')
              ],
              [       
                InlineKeyboardButton(
