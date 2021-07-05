@@ -30,18 +30,18 @@ and Join [support](https://t.me/unitedbotsupport) to know about this bot
                 ],
                 [
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/unitedbotsupport"
+                        "GROUP", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "CHANNEL", url="https://t.me/Tubots"
+                        "CHANNEL", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "CREDITS", url="https://t.me/Psycho_Bots"
+                        "CREDITS", url="https://t.me/Musiqorobot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ADD TO GROUPS", url="https://t.me/Musiqorobot?startgroup=true"
+                        "ADD TO GROUPS", url="https://t.me/Noravc_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -60,10 +60,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "SUPPORT", url="https://t.me/Tubots"
+                        "SUPPORT", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "REPORT BUGS", url="https://t.me/Unitedbotsupport"
+                        "REPORT BUGS", url="https://t.me/rosebakthan"
                     )
                 ],    
                 [    
@@ -89,10 +89,10 @@ Join our group for reporting issues and bugs check commands [click here](https:/
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/LucidoXD/musiqo"
+                        "SOURCE CODE", url="https://github.com/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "WEBSITE", url="https://cutt.ly/GjBGQ0D"
+                        "WEBSITE", url="https://telegramorg.com"
                     )
                 ]
             ]
