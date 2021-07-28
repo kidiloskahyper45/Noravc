@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
 
 **How to use it**
 Press the » **COMMANDS** to view the full list of the commands of the bot!
-and Join [support](https://t.me/rosebakthan) to know about this bot
+and Join [support](https://t.me/rosebakthan) to know about this bot🤖
 <\b>""",
       
        
