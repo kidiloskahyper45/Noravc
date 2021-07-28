@@ -12,12 +12,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>[📻](https://telegra.ph/file/7f6694968c6246357aa03.jpg) Welcome {message.from_user.first_name}!
-**ɴᴏʀᴀ** is a bot designed💌 for **stream** on your group, as **simple** as possible, through the **voice chats** in your group.
+        f"""<b>[🎶](https://telegra.ph/file/7f6694968c6246357aa03.jpg) Welcome {message.from_user.first_name}!
+**Nora** is a bot designed for **stream** on your group, as **simple** as possible, through the **voice chats** in your group.
 
-**How to use it**
+**❓How to use it❓**
 Press the » **COMMANDS** to view the full list of the commands of the bot!
-and Join [support](https://t.me/rosebakthan) to know about this bot🤖
+and Join [support](https://t.me/unitedbotsupport) to know about this bot 
 <\b>""",
       
        
@@ -30,18 +30,18 @@ and Join [support](https://t.me/rosebakthan) to know about this bot🤖
                 ],
                 [
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/rosebakthan"
+                        "Support Group", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "CHANNEL", url="https://t.me/rosebakthan"
+                        "Updates Channel", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "CREDITS", url="https://t.me/Miss_Monica_bot"
+                        "Assistant", url="https://t.me/Noravc_assistant"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ADD TO GROUPS", url="https://t.me/Noravc_bot?startgroup=true"
+                        "Add to your group", url="https://t.me/Miss_Monica_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -60,15 +60,15 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "SUPPORT", url="https://t.me/rosebakthan"
+                        "Support", url="https://t.me/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "REPORT BUGS", url="https://t.me/rosebakthan"
+                        "Report bugs", url="https://t.me/rosebakthan"
                     )
                 ],    
                 [    
                     InlineKeyboardButton(
-                        "CLOSE", callback_data="close"
+                        "Close", callback_data="close"
                     )
                 ]
             ]
@@ -76,26 +76,25 @@ async def start(client: Client, message: Message):
     )
 
 @Client.on_message(
-    filters.command("help")
+    filters.command("source")
     & filters.private
     & ~ filters.edited
 )
-async def help(client: Client, message: Message):
+async def source(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-Join our group for reporting issues and bugs check commands [click here](https://telegra.ph/NORA-VC-BOT-07-05) use @Miss_Monica_bot for downloading songs
+**Here is bot source code and pyrostring generator For help contact at support group**
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/rosebakthan"
+                        "github repo", url="https://github.com/rosebakthan"
                     ),
                     InlineKeyboardButton(
-                        "WEBSITE", url="https://telegramorg.com"
+                        "string generator", url="https://replit.com/@basimon/GMusiqopyrostring"
                     )
                 ]
             ]
         )
-    )    
-
+    )
