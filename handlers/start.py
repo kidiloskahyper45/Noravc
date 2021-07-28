@@ -13,7 +13,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>[📻](https://telegra.ph/file/7f6694968c6246357aa03.jpg) Welcome {message.from_user.first_name}!
-**ɴᴏʀᴀ** is a bot designed for **stream** on your group, as **simple** as possible, through the **voice chats** in your group.
+**ɴᴏʀᴀ** is a bot designed💌 for **stream** on your group, as **simple** as possible, through the **voice chats** in your group.
 
 **How to use it**
 Press the » **COMMANDS** to view the full list of the commands of the bot!
